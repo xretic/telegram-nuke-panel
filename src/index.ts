@@ -1,9 +1,4 @@
 import bootstrap from "./common/bootstrap";
-import { config } from "dotenv";
-
-config({
-	path: ".env",
-});
 
 bootstrap()
 	.catch((error: Error) => {
